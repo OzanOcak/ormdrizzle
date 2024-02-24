@@ -1,0 +1,20 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1708731648004,
+      "tag": "0000_sticky_nico_minoru",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1708741834390,
+      "tag": "0001_sour_the_initiative",
+      "breakpoints": true
+    }
+  ]
+}
