@@ -1,4 +1,4 @@
-npm run migration:generate
+    npm run migration:generate
 
 in schema.ts
 
@@ -15,7 +15,7 @@ in the package.json
 
 then run
 
-    npm run migration:generate22
+    npm run migration:generate
 
 this create sql file under drizzle folder
 create migrate.ts under db folder
@@ -44,6 +44,8 @@ create migrate.ts under db folder
     });
 
 in the package.json
+
+    npm run mitigate
 
     "migrate": "drizzle-kit generate:pg --schema=./src/db/schema.ts && node -r esbuild-register src/db/migrate.ts",
 
